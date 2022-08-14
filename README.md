@@ -8,7 +8,8 @@ bidimensional que modela el grafo de las regiones de manera tabular. Su tamaño 
 Cada fila corresponde a la relacion que tiene una region con las otras, de manera que true equivale a adyacente. Para suministrar
 el grafo se cuenta con 3 constantes, pero la tercera es meramente estetica para identificar un overlap. Por ejemplo:
 
-*| Rn |  R1  |  R2  |  R3  | ... |*\n
+*| Rn |  R1  |  R2  |  R3  | ... |*
+
 *| R1 |  N/A |  Adj | !Adj | ... |*
 
 La segunda modela los vertices del grafo y sus miembros retienen datos minimos como color e identificador para distinguir regiones.
